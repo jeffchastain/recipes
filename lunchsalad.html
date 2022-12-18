@@ -5,48 +5,73 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Berry Good Salad</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&family=Poppins:wght@200&display=swap" rel="stylesheet">
-        <link rel="icon" type="images/favicon" href="/images/favicon.ico">
+    <!--Boostrap Connectors-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&family=Dancing+Script&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="images/favicon" href="/images/favicon.ico">
     </head>
 <body>
-    <table>
-        <tr>
-            <td><a href="index.html">Home</a></td>
-            <td><a href="breakfastwrap.html">Quick & Easy Breakfast Wrap</a></td>
-            <td><a href="quinoataco.html">Quinoa Taco Filling</a></td>
-            <td><a href="cheesesauce.html">Vegan Cheese Sauce</a></td>
-            </tr>
-        </table>
+    <nav class="navbar navbar-expand-lg" style="background-color:rgba(21,139,33,1);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/plant.png" alt="Plant_logo" width="30" height="24" class="d-inline-block align-text-top">
+                Plant-Based Recipes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="breakfastwrap.html">Quick & Easy Breakfast Wrap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><strong>Berry Good Lunch Salad</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quinoataco.html">Quinoa Taco Filling</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cheesesauce.html">Vegan Cheese Sauce</a>
+              </li>
 
+            </ul>
+          </div>
+        </div>
+      </nav>
             
-  <h1>Berry Good Lunch Salad</h1>
-  <p>
-    This delicious salad will leave your co-workers jealous, and it could not be easier to assemble in a hurry. The total prep time is ten minutes and there is no cook time! 
-    This recipe is has 62% of your daily fiber, as well as 80% of the recommended daily value of Iron, and 40% of the recommended daily value of potassium! 
+  <h1 class="text">Berry Good Lunch Salad</h1>
+  <p class="text">
+    This delicious salad will leave your co-workers jealous, and it could not be easier to assemble in a hurry. The total prep time is ten minutes and there is no cook time! <br>
+    It is very healhy, with 62% of your daily fiber, as well as 80% of the recommended daily value of Iron, and 40% of the recommended daily value of potassium! <br>
     This salad has 574 calories, so it is a balanced way to enjoy your lunch.
 </p>
 
-    <table>
-<tr>
-    <td><img width="400" height="300" src="images/berry_salad.jpg" alt="berry good salad"></td>
-    <td>
-        <h3>Ingredients</h3>
-        <ul>
-            <li>3 cups Organic Spring Mis</li>
-            <li>1/2 cup Blackberries</li>
-            <li>1/2 cup Raspberries</li>
-            <li>1/2 cup Blueberries</li>
-            <li>1 cup Seedless Grapes</li>
-            <li>1/2 cup crushed Walnuts</li>
-            <li>1 tbsp Balsamic Vinegar</li>
-        </ul>
-    </td>
-    <td></td>
-</tr>
-
-    </table>
-<p>
+<div class="container=fluid">
+    <div class="row">
+        <div class="recipe col-lg-auto">
+            <img width="400" height="300" src="images/berry_salad.jpg" alt="berry good salad">
+</div>
+<div class="recipe col-lg-auto">
+    <h3>Ingredients</h3>
+    <ul>
+        <li>3 cups Organic Spring Mis</li>
+        <li>1/2 cup Blackberries</li>
+        <li>1/2 cup Raspberries</li>
+        <li>1/2 cup Blueberries</li>
+        <li>1 cup Seedless Grapes</li>
+        <li>1/2 cup crushed Walnuts</li>
+        <li>1 tbsp Balsamic Vinegar</li>
+    </ul>
+</div>
+<div class="recipe col-lg-auto">
     <h3>Directions</h3>
     <p>Rinse all of the berries and grapes<br>
     Add the spring mix to a bowl <br>
@@ -58,11 +83,21 @@
     
 
  </p>
-</p>
-<p>
-<img width="320" height="635" src="images/lunch_salad_nutrition_panel.png" alt="nutrition_info" />
 
-</p>
+</div>
+<div class="recipe col-lg-auto">
+    <img width="320" height="635" src="images/lunch_salad_nutrition_panel.png" alt="nutrition_info" />
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
 
 
 </body>

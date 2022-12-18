@@ -1,10 +1,11 @@
 body {
-    background: rgb(56,122,205);
-    background: linear-gradient(90deg, rgba(56,122,205,1) 1%, rgb(86, 119, 209) 100%, rgba(7,173,207,1) 100%);
+    
+    background: linear-gradient(90deg, rgba(21,139,33,1) 5%, rgba(8,203,68,1) 64%);
 }
 
 h1 {
-    font-family: 'poppins', 'inter','OPen Sans', sans-serif;
+    font-size: 5.62rem;
+    font-family: 'Dancing Script';
 }
 
 h2 {
@@ -13,7 +14,8 @@ h2 {
 
 p {
     font-family: 'inter','Open Sans', sans-serif;
-    color: lightgrey;
+    color: black;
+
 }
 
 ul {
@@ -22,4 +24,12 @@ ul {
 
 td {
    padding: 15px;
+}
+
+.recipe {
+    padding: 0px 25px;
+}
+
+.text {
+    padding: 0px 15px;
 }
