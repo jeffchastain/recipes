@@ -33,3 +33,14 @@ td {
 .text {
     padding: 0px 15px;
 }
+
+.recipe-image {
+    width: 75%;
+    border-radius: 15px;
+}
+
+#breakfast-wrap-image {
+    width: 75%;
+    border-radius: 15px;
+
+}
